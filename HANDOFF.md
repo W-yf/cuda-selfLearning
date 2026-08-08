@@ -3,13 +3,15 @@
 ## 最新交接快照
 
 - `last_updated: 2026-08-08`
+- `based_on_commit: bf6a428`
 - `current_day: 0`
-- `current_stage: repository_initialization`
+- `current_stage: repository_initialization_complete`
+- `next_stage: knowledge_map_and_baseline`
 - 仓库：公开 GitHub 仓库 `cuda-selfLearning`
-- 本地状态：已克隆到本地，当前分支为 `main`，尚无 commit。
-- 文件状态：约定的初始 Markdown 文件和 `.gitignore` 已在工作区创建，尚未执行 `git add`。
-- 安全状态：本地公开安全检查已通过，未发现疑似凭据、公司资料、内部路径、二进制或非预期大文件。
-- 远程状态：尚未首次 push，尚未进行远程文件与提交核对。
+- 基线状态：初始 commit `bf6a428` 已成功 push，`main` 与 `origin/main` 同步，状态收尾开始前 working tree clean。
+- 当前文件状态：本次初始化收尾修改尚未暂存、commit 或 push。
+- 安全状态：初始公开安全检查和本次状态收尾的 diff、公开安全复核均已通过。
+- 阶段状态：Stage 0 已完成；Stage 1 只是下一阶段，尚未开始。
 - 资源状态：`pending_knowledge_map`。
 
 ## 已完成
@@ -19,20 +21,21 @@
 - 创建公开 GitHub 仓库并完成本地克隆。
 - 在本地工作区生成约定的初始文件。
 - 完成本地文件清单、关键约束、格式和公开安全检查。
+- 创建初始 commit `bf6a428` 并成功首次 push。
+- 核对 `main` 与 `origin/main` 同步、工作区干净及远程初始文件清单。
+- 获得用户明确确认，完成 Stage 0 仓库初始化门禁。
 
-## 尚未完成
+## 尚未开始
 
-- 尚未创建初始 commit。
-- 尚未首次 push。
-- 尚未核对远程分支、文件清单和最新提交。
-- 尚未获得用户对初始化完成的明确确认。
+- 尚未建立知识图谱。
+- 尚未制定 30 天计划。
+- 尚未开始 Day 1。
+- 尚未确定完整教材和课程组合。
 
 ## 当前强制约束
 
-- 初始化门禁完成前，不建立完整知识图谱。
-- 初始化门禁完成前，不制定 30 天计划。
-- 初始化门禁完成前，不开始 Day 1。
-- 初始化门禁完成前，不确定完整教材和课程组合。
+- Stage 1 尚未开始；本次收尾不建立知识图谱。
+- 本次收尾不制定 30 天计划、不开始 Day 1、不确定完整教材和课程组合。
 - 当前项目不涉及点云。
 - 不假设碰撞检测重构已经成为正式任务。
 - 编译器和图形学暂时后置。
@@ -43,7 +46,8 @@
 
 1. 按 `AGENTS.md` 的顺序读取状态文件。
 2. 检查 `STATUS.md` 的 `last_updated`、`current_day`、`current_stage`。
-3. 确认公开安全检查是否已经完成；只把已经发生的操作标为完成。
-4. 在用户明确确认前，不执行 `git add`、`git commit` 或 `git push`。
+3. 注意本快照基于 `bf6a428`，当前初始化收尾修改仍是本地未暂存状态。
+4. 在用户后续明确确认前，不执行 `git add`、`git commit` 或 `git push`。
+5. 不在本次收尾中开始 Stage 1；后续应以单独任务启动 `knowledge_map_and_baseline`。
 
 本文件只保留最新快照；后续交接应覆盖更新本文件，并把历史过程写入对应日期的日志。

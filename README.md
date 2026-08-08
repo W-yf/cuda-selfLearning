@@ -8,10 +8,12 @@
 
 - 日期：2026-08-08
 - `current_day: 0`
-- `current_stage: repository_initialization`
+- `current_stage: repository_initialization_complete`
+- `next_stage: knowledge_map_and_baseline`
 - 公开 GitHub 仓库已创建，本地仓库已成功克隆。
-- 初始文件已在本地工作区创建，但尚未执行 `git add`、初始 commit 或首次 push。
-- 初始化门禁尚未完成，因此暂不建立完整知识图谱、不制定 30 天计划、不开始 Day 1，也不确定完整教材和课程组合。
+- 初始 commit `bf6a428` 已成功 push；`main` 与 `origin/main` 已核对同步。
+- Stage 0 仓库初始化门禁已经完成。
+- Stage 1 `knowledge_map_and_baseline` 仅为下一阶段，尚未开始；当前未建立知识图谱、未制定 30 天计划、未开始 Day 1，也未确定完整教材和课程组合。
 
 ## 状态入口
 
@@ -56,4 +58,3 @@
 - 碰撞检测重构尚未正式分配，不假设它已经是确定任务。
 - 编译器和图形学暂时后置。
 - 交易系统只是未来可能方向，不是当前主线。
-
