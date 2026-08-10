@@ -6,14 +6,17 @@
 
 ## 当前阶段
 
-- 日期：2026-08-08
+- 日期：2026-08-10
 - `current_day: 0`
-- `current_stage: repository_initialization_complete`
-- `next_stage: knowledge_map_and_baseline`
+- `current_stage: knowledge_map_and_baseline`
+- `current_stage_status: in_progress`
+- `next_stage: resource_selection`
 - 公开 GitHub 仓库已创建，本地仓库已成功克隆。
-- 初始 commit `bf6a428` 已成功 push；`main` 与 `origin/main` 已核对同步。
+- 初始 commit `bf6a428` 已成功 push；Stage 0 状态收尾已进入本地提交 `1b176c6`。
 - Stage 0 仓库初始化门禁已经完成。
-- Stage 1 `knowledge_map_and_baseline` 仅为下一阶段，尚未开始；当前未建立知识图谱、未制定 30 天计划、未开始 Day 1，也未确定完整教材和课程组合。
+- Stage 1 已完成 B1–B7 基线验证或起点诊断，知识图谱和能力基线正在等待用户审阅确认。
+- 本轮未访问远程；当前 Stage 1 修改尚未暂存、commit 或 push。
+- 当前未选择完整资源组合、未制定 30 天计划、未开始 Day 1。
 
 ## 状态入口
 
@@ -23,9 +26,10 @@
 2. [STATUS.md](STATUS.md)：当前唯一的结构化状态摘要；规划前必须检查 `last_updated`、`current_day`、`current_stage`。
 3. [HANDOFF.md](HANDOFF.md)：家庭 Codex 与公司云端 ChatGPT 之间的最新交接快照，只保留最新一份。
 4. [ROADMAP.md](ROADMAP.md)：当前阶段门禁和门禁完成后的阶段顺序。
-5. [RESOURCES.md](RESOURCES.md)：资料选择状态；当前保持 `pending_knowledge_map`。
+5. [RESOURCES.md](RESOURCES.md)：资料选择状态；当前保持 `pending_stage_1_confirmation`。
 6. [logs/](logs/)：按日期记录已经发生的学习和仓库变更。
 7. [notes/](notes/) 与 [exercises/](exercises/)：分别保存学习笔记和独立代码实验。
+8. [notes/knowledge-map.md](notes/knowledge-map.md) 与 [notes/capability-baseline.md](notes/capability-baseline.md)：当前知识依赖和能力基线。
 
 协作代理和自动化工具还必须遵守 [AGENTS.md](AGENTS.md)。
 

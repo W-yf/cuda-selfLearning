@@ -2,6 +2,11 @@
 
 本目录保存学习笔记、概念解释、数学推导、阅读摘要和公开资料的引用记录。
 
+## 当前入口
+
+- [knowledge-map.md](knowledge-map.md)：长期主线的知识依赖、四类优先级、目标层级和证据门槛。
+- [capability-baseline.md](capability-baseline.md)：基于已确认事实的能力基线、证据缺口和 B1–B7 验证结论；当前等待 Stage 1 用户确认。
+
 ## 建议内容
 
 - 主题、日期和当前掌握层级；
