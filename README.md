@@ -10,7 +10,7 @@
 - `current_day: 2`
 - `current_stage: rolling_learning_iteration`
 - `current_stage_status: in_progress`
-- `next_task: start_day_2_raii_and_ownership_classification`
+- `next_task: review_due_cards_then_start_day_2_raii_and_ownership_classification`
 - 公开 GitHub 仓库已创建，本地仓库已成功克隆。
 - 初始 commit `bf6a428` 已成功 push；Stage 0 状态收尾已进入本地提交 `1b176c6`。
 - Stage 0 仓库初始化门禁已经完成。
@@ -18,7 +18,9 @@
 - Stage 2 资源组合已由用户确认完成。
 - Stage 3 日程、视频索引和现代 C++ 标准范围已由用户确认并完成。
 - Day 1 已完成：对象生命周期、作用域与悬空对象达到“2. 能够解释”。
-- 当前进入 Day 2：RAII 与所有权分类，尚未开始学习内容。
+- Day 1 最小巩固组合已由用户确认完成；巩固不改变既有掌握层级。
+- 间隔复习系统已经启用，正式学习前先处理到期题，随后进入 Day 2：RAII 与所有权分类。
+- Day 2 尚未开始学习内容。
 
 ## 状态入口
 
@@ -32,9 +34,10 @@
 6. [logs/](logs/)：按日期记录已经发生的学习和仓库变更。
 7. [notes/](notes/) 与 [exercises/](exercises/)：分别保存学习笔记和独立代码实验。
 8. [notes/knowledge-map.md](notes/knowledge-map.md) 与 [notes/capability-baseline.md](notes/capability-baseline.md)：当前知识依赖和能力基线。
-9. [SCHEDULE.md](SCHEDULE.md)：经资源确认后形成的滚动学习日程草案与完成证据。
+9. [SCHEDULE.md](SCHEDULE.md)：已经确认的滚动学习日程与完成证据。
 10. [VIDEO_INDEX.md](VIDEO_INDEX.md)：为当前 30 个学习日逐日映射视频、权威资料和学习证据。
 11. [CXX_STANDARDS.md](CXX_STANDARDS.md)：定义 C++11、14、17、20 的必学范围及 C++23/26 的采用边界和长期门禁。
+12. [REVIEW.md](REVIEW.md) 与 [reviews/question-bank.md](reviews/question-bank.md)：每日新学习前的间隔复习规则、到期队列和错题记录。
 
 协作代理和自动化工具还必须遵守 [AGENTS.md](AGENTS.md)。
 

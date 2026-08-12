@@ -5,7 +5,7 @@
 - `current_day: 2`
 - `current_stage: rolling_learning_iteration`
 - `current_stage_status: in_progress`
-- `next_task: start_day_2_raii_and_ownership_classification`
+- `next_task: review_due_cards_then_start_day_2_raii_and_ownership_classification`
 - Stage 0、Stage 1、Stage 2、Stage 3 和 Day 1 已完成；当前准备执行 Day 2。
 
 ## Stage 0：仓库初始化门禁（已完成）

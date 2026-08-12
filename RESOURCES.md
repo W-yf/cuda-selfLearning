@@ -10,17 +10,21 @@ learning_media_preference: video_first
 study_environment_split: home_deep_study_workplace_cpp_microlearning
 cpp_video_entry: bilibili_BV1YT2MYPE73_verified_targeted_use
 cpp_template_video_supplement: bilibili_BV1ivFVe4Efv_verified_deferred_targeted_use
+linear_algebra_textbook: introduction_to_linear_algebra_5e_english
+linear_algebra_textbook_role: auxiliary_to_video
+linear_algebra_textbook_purchase: planned_not_yet_confirmed
 ```
 
 ## 当前状态
 
-Stage 1 已完成并获用户确认。以下组合依据真实基线选择，目标是用少量资源覆盖当前主线，而不是建立“收藏清单”。用户已于 2026-08-12 确认资源组合，当前已进入日程设计。
+Stage 1、Stage 2 和 Stage 3 均已完成并获用户确认。以下组合依据真实基线选择，目标是用少量资源覆盖当前主线，而不是建立“收藏清单”。当前已进入滚动学习阶段，具体学习日安排以 [SCHEDULE.md](SCHEDULE.md) 和 [VIDEO_INDEX.md](VIDEO_INDEX.md) 为准。
 
 ## 选择结果
 
 ### 1. 线性代数
 
 - **主视频入口**：[Bilibili — MIT 线性代数 1080p 高清修复重制](https://www.bilibili.com/video/BV13Y4y1q7ZE/)；用户指定并确认符合视频优先习惯。页面为 Gilbert Strang 的 MIT 线性代数课程，共 35 讲，目录覆盖方程组、子空间、正交与最小二乘、特征值、正定矩阵、SVD 等主线。它可以作为日常观看入口，但属于第三方页面；课程结构、讲义、练习和许可信息以 MIT OCW 官方页面为准。
+- **配套辅书**：Gilbert Strang, *Introduction to Linear Algebra*, Fifth Edition；英文，付费。用户已选择第 5 版配合经典视频，教材只承担查阅、补充解释和习题入口，不改变“视频优先”的学习方式。当前只记录购买计划，尚未确认已经购买；第 6 版暂不作为本轮主配套教材。官方目录见 [MIT 第 5 版页面](https://math.mit.edu/~gs/linearalgebra/ila5/index.html)。
 - **官方课程包**：[MIT OpenCourseWare 18.06SC Linear Algebra](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)；英文，免费，适合独立学习，包含完整讲课视频、讲义、问题讲解、习题和答案。按零基础起点使用，但先补仓库内的标量、向量和记号导入，再进入课程的矩阵与方程组主线。
 - **直觉辅助**：[3Blue1Brown — Essence of Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra)；英文，免费。只用于建立向量、线性组合、线性变换、矩阵乘法、基和特征向量的视觉直觉，不能替代手算与习题。
 - **学习闭环**：先观看对应主视频，再形成自己的概念笔记和独立解释，随后完成 18.06SC 对应 problem sets；关键概念再用自行编写的小规模 C++ 向量/矩阵计算交叉验证。只看完视频最多只能作为“1. 看过”的证据。
@@ -71,7 +75,7 @@ Stage 1 已完成并获用户确认。以下组合依据真实基线选择，目
 
 ## 当前实际启用顺序
 
-资源选择不等于同时开学。日程设计前只固定以下依赖顺序：
+资源选择不等于同时展开全部资料。当前按以下依赖顺序启用：
 
 1. 线性代数基础导入 → Bilibili 主视频入口观看 Gilbert Strang 课程 → MIT 18.06SC 官方讲义与习题闭环；
 2. C++ 使用 Bilibili 短视频定向导入 → LearnCpp/Core Guidelines/cppreference 补齐与核对规则 → 独立小例题验证；基础规则稳定后再启用模板专题第 39–43 讲，并与 CMake 官方教程交叉推进；
@@ -79,7 +83,7 @@ Stage 1 已完成并获用户确认。以下组合依据真实基线选择，目
 4. 满足最小 C++、CMake 和内存前置后进入 CUDA 零基础导入；
 5. 并发系统学习和 Google Benchmark 在对应前置满足后启用。
 
-具体到每天或每周的安排属于下一阶段 `schedule_design`，当前不展开。
+具体到每天或每周的安排不在本文件重复维护，以 [SCHEDULE.md](SCHEDULE.md) 为准。
 
 ## 学习环境分配
 
@@ -110,7 +114,7 @@ Stage 1 已完成并获用户确认。以下组合依据真实基线选择，目
 
 ## 当前明确不做
 
-- 不把资源组合直接扩展成 30 天计划。
+- 不在本文件复制或另造 30 天计划；日程唯一入口为 [SCHEDULE.md](SCHEDULE.md)。
 - 不要求按封面到封底同时读完所有资料。
 - 不因可能的工作任务锁定专用资料。
 - 不加入超出仓库严格边界的主题或材料。
