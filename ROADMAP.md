@@ -2,12 +2,11 @@
 
 ## 当前定位
 
-- `current_day: 0`
-- `current_stage: knowledge_map_and_baseline`
+- `current_day: 2`
+- `current_stage: rolling_learning_iteration`
 - `current_stage_status: in_progress`
-- `next_stage: resource_selection`
-- Stage 0 已完成，Stage 1 已启动但尚未通过门禁。
-- 当前不选择完整资源组合、不制定 30 天计划、不开始 Day 1。
+- `next_task: start_day_2_raii_and_ownership_classification`
+- Stage 0、Stage 1、Stage 2、Stage 3 和 Day 1 已完成；当前准备执行 Day 2。
 
 ## Stage 0：仓库初始化门禁（已完成）
 
@@ -21,10 +20,10 @@
 
 Stage 0 状态：`completed`。
 
-## Stage 1：知识图谱与能力基线（进行中）
+## Stage 1：知识图谱与能力基线（已完成）
 
 - 名称：`knowledge_map_and_baseline`
-- 状态：`in_progress`
+- 状态：`completed`
 - 目标：建立长期知识依赖，将真实起点映射到图谱，并用可检查证据确定后续资源与学习节奏的输入。
 - 详细知识关系保存在 [notes/knowledge-map.md](notes/knowledge-map.md)，能力清点与验证队列保存在 [notes/capability-baseline.md](notes/capability-baseline.md)。
 
@@ -37,7 +36,7 @@ Stage 0 状态：`completed`。
 - [x] 完成 B1、B2、B4、B6 的核心验证并记录可检查证据。
 - [x] 对 B3、B5、B7 完成验证，或形成有记录的“暂不分配层级 + 后续起点”诊断。
 - [x] 将验证证据回填到基线，不把自述线索当作已经公开验证的实现证据。
-- [ ] 用户确认知识图谱和基线足以进入资源选择。
+- [x] 用户确认知识图谱和基线足以进入资源选择。
 
 Stage 1 期间允许：
 
@@ -52,16 +51,42 @@ Stage 1 期间禁止：
 - 把评估任务记作 Day 1；
 - 记录任何工作代码、业务数据、内部资料或可识别上下文。
 
-## Stage 2：资源选择（尚未开始）
+## Stage 2：资源选择（已完成）
 
 - 名称：`resource_selection`
-- 状态：`blocked_by_stage_1`
-- 入口条件：Stage 1 门禁全部完成并由用户确认。
+- 状态：`completed`
+- 入口条件：Stage 1 门禁全部完成并由用户确认（已满足）。
 - 目标：依据知识依赖、基线证据和语言偏好，区分英文权威主资料、中文前期辅助、练习资料与参考手册。
+
+门禁：
+
+- [x] 选择精简资料组合，不把所有候选资料同时列为必学；
+- [x] 明确各资料的角色、范围、语言、成本和启用时机；
+- [x] 线性代数优先，同时保留 C++、系统性能、CMake 与 CUDA 的交叉入口；
+- [x] 不加入点云、未确认工作任务、编译器实现、图形学或交易系统资料；
+- [x] 用户审阅并确认资源组合。
+
+## Stage 3：日程设计（已完成）
+
+- 名称：`schedule_design`
+- 状态：`completed`
+- 目标：把知识依赖、能力断点、资源角色、可用时间和学习环境转化为可滚动执行的学习日程。
+
+门禁：
+
+- [x] 采用 30 个学习日而非强制连续自然日；
+- [x] 工作日任务控制在约 1 小时，周末两天合计至少 6 小时；
+- [x] 家中安排线性代数等深度学习，公司安排公开 C++ 短单元；
+- [x] 每个学习日包含可检查证据；
+- [x] 未完成任务整体顺延，不推翻后续计划；
+- [x] 明确现代 C++ 长期范围：C++11、14、17、20 必学，C++23 选择性桥接，C++26 按资料与工具链支持跟踪；
+- [x] 明确第一轮 30 日只建立基础和版本导航，后续通过滚动周期完成全部版本门禁；
+- [x] 用户审阅并确认日程、视频索引和现代 C++ 标准范围。
+
+Stage 3 状态：`completed`。
 
 ## 更后阶段
 
-1. `schedule_design`：资源选择完成后，根据工作日每天约 1 小时、周末两天合计至少 6 小时的约束制定可滚动计划。
-2. `day_1_and_iteration`：用户确认计划后开始 Day 1，按状态、日志、实验和交接规则持续迭代。
+1. `rolling_learning_iteration`（进行中）：Day 1 已完成，当前准备开始 Day 2 的 RAII 与所有权分类；后续按状态、日志、实验和交接规则持续迭代。
 
 长期推进覆盖线性代数优先、现代 C++ 与高性能系统开发、内存层次与数据布局、计算机组成与操作系统、并发、性能分析、基准测试、CMake、CUDA 和公开抽象的工业计算基础；数学、C++ 实验、性能分析和 CUDA 交叉推进。

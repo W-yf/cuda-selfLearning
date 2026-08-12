@@ -1,9 +1,9 @@
 # 能力基线
 
 ```yaml
-last_updated: 2026-08-10
-stage: knowledge_map_and_baseline
-status: verification_complete_pending_user_review
+last_updated: 2026-08-12
+stage: resource_selection
+status: confirmed
 current_day: 0
 source: user_confirmed_context_and_repository_records
 B1_linear_algebra: completed_start_from_foundations
@@ -154,6 +154,6 @@ B7_cuda: completed_no_level_start_from_foundations
 - B3、B5、B7 分别完成验证，或完成一项有记录的起点诊断，明确说明为何暂不分配层级以及后续起点；
 - 每个记录层级都能指向解释、独立实现、测试或性能分析证据；
 - 用户审阅并确认知识图谱、优先级和基线结论；
-- 仍未选择完整资源组合、未制定 30 天计划、未开始 Day 1。
+- Stage 1 完成时尚未选择资源组合、未制定 30 天计划、未开始 Day 1。
 
-B1–B7 基线验证现已完成；当前仍需用户审阅并确认知识图谱、优先级和基线结论。只有确认后才将 Stage 1 标记为完成，下一阶段才是 `resource_selection`。
+B1–B7 基线验证已完成并由用户确认，Stage 1 状态为 `completed`。当前进入 `resource_selection`，资源选择不得反向虚增任何掌握层级。

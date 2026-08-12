@@ -6,17 +6,19 @@
 
 ## 当前阶段
 
-- 日期：2026-08-10
-- `current_day: 0`
-- `current_stage: knowledge_map_and_baseline`
+- 日期：2026-08-12
+- `current_day: 2`
+- `current_stage: rolling_learning_iteration`
 - `current_stage_status: in_progress`
-- `next_stage: resource_selection`
+- `next_task: start_day_2_raii_and_ownership_classification`
 - 公开 GitHub 仓库已创建，本地仓库已成功克隆。
 - 初始 commit `bf6a428` 已成功 push；Stage 0 状态收尾已进入本地提交 `1b176c6`。
 - Stage 0 仓库初始化门禁已经完成。
-- Stage 1 已完成 B1–B7 基线验证或起点诊断，知识图谱和能力基线正在等待用户审阅确认。
-- 本轮未访问远程；当前 Stage 1 修改尚未暂存、commit 或 push。
-- 当前未选择完整资源组合、未制定 30 天计划、未开始 Day 1。
+- Stage 1 知识图谱与能力基线已由用户确认完成，结果保存在提交 `792be54`。
+- Stage 2 资源组合已由用户确认完成。
+- Stage 3 日程、视频索引和现代 C++ 标准范围已由用户确认并完成。
+- Day 1 已完成：对象生命周期、作用域与悬空对象达到“2. 能够解释”。
+- 当前进入 Day 2：RAII 与所有权分类，尚未开始学习内容。
 
 ## 状态入口
 
@@ -26,17 +28,20 @@
 2. [STATUS.md](STATUS.md)：当前唯一的结构化状态摘要；规划前必须检查 `last_updated`、`current_day`、`current_stage`。
 3. [HANDOFF.md](HANDOFF.md)：家庭 Codex 与公司云端 ChatGPT 之间的最新交接快照，只保留最新一份。
 4. [ROADMAP.md](ROADMAP.md)：当前阶段门禁和门禁完成后的阶段顺序。
-5. [RESOURCES.md](RESOURCES.md)：资料选择状态；当前保持 `pending_stage_1_confirmation`。
+5. [RESOURCES.md](RESOURCES.md)：当前资料组合、使用顺序、付费边界和暂缓项。
 6. [logs/](logs/)：按日期记录已经发生的学习和仓库变更。
 7. [notes/](notes/) 与 [exercises/](exercises/)：分别保存学习笔记和独立代码实验。
 8. [notes/knowledge-map.md](notes/knowledge-map.md) 与 [notes/capability-baseline.md](notes/capability-baseline.md)：当前知识依赖和能力基线。
+9. [SCHEDULE.md](SCHEDULE.md)：经资源确认后形成的滚动学习日程草案与完成证据。
+10. [VIDEO_INDEX.md](VIDEO_INDEX.md)：为当前 30 个学习日逐日映射视频、权威资料和学习证据。
+11. [CXX_STANDARDS.md](CXX_STANDARDS.md)：定义 C++11、14、17、20 的必学范围及 C++23/26 的采用边界和长期门禁。
 
 协作代理和自动化工具还必须遵守 [AGENTS.md](AGENTS.md)。
 
 ## 长期方向
 
 - 线性代数优先；
-- 现代 C++、C++ 高性能系统开发；
+- 现代 C++、C++ 高性能系统开发；C++11、14、17、20 必学，C++23 选择性桥接，C++26 按可靠资料和工具链支持纳入；
 - 内存层次、数据布局、计算机组成、操作系统；
 - 并发、性能分析、基准测试；
 - CMake 和工程能力；

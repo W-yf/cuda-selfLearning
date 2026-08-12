@@ -6,6 +6,7 @@
 
 - [knowledge-map.md](knowledge-map.md)：长期主线的知识依赖、四类优先级、目标层级和证据门槛。
 - [capability-baseline.md](capability-baseline.md)：基于已确认事实的能力基线、证据缺口和 B1–B7 验证结论；当前等待 Stage 1 用户确认。
+- [day-01-lifetime.md](day-01-lifetime.md)：Day 1 对象生命周期、作用域、悬空引用/指针和未定义行为笔记。
 
 ## 建议内容
 
